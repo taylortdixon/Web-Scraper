@@ -1,0 +1,5 @@
+Abstract class 'Site'
+- Abstract method getURL
+- Abstract method getSiteID
+- Abstract method processResult
+- Method is_song_processed --> Checks if the song is already processed using getSiteID()
