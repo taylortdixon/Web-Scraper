@@ -20,7 +20,7 @@ class Site(models.Model):
 	song_time_identifier = models.CharField(max_length=150)
 
 class Song(models.Model):
-	#site_id = models.ForeignKey(Site)
+	site_id = models.IntegerField()
 	song_name = models.CharField(max_length=150)
 	song_artist = models.CharField(max_length=200)
 	song_datetime = models.DateTimeField()
